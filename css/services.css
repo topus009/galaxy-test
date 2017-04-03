@@ -1,0 +1,131 @@
+/* ============================== */
+body {
+    padding: 0;
+    margin: 0;
+    min-width: 1024px;
+    min-height: 600px;
+    font-family: "A Garamond Pro";
+    background-color: black;
+}
+.fullpage__ {
+    width: 100vw;
+    height: 100vh;
+}
+.cover {
+    opacity: 0.13;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+/* =============================== */
+/* ============== UP ============= */
+.up__logo {
+    width: 157px;
+    height: 116px;
+    margin-top: 88px;
+    margin-left: 36px;
+}
+/* ============== UP-end ========= */
+/* ============== DOWN ============ */
+.down__menu {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 26px;
+    display: inline-table;
+    position: absolute;
+    margin-left: 260px;
+    margin-top: -50px;
+}
+.down__menu a {
+    color: #949494;
+    padding-right: 17px;
+    padding-left: 17px;
+    text-decoration: none;
+}
+.down__ .copyright {
+    position: absolute;
+    bottom: 17px;
+    left: 36px;
+    color: #949494;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.down__ .copyright a {
+    color: #949494;
+}
+/* ===== MENU__HOVER__EFFECT ========= */
+.effect a:hover {
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+      -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+          -o-transition: 0.3s;
+}
+/* ===== MENU__HOVER__EFFECT-end ===== */
+/* ============== DOWN-end =========== */
+/* =============== ACCORDION ========= */
+.accordionStyle {
+    width: 712px;
+    margin-left: 54px;
+    margin-top: 28px;
+    font-family: "A Garamond Pro";
+}
+.ui-state-default {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 25px !important;
+    font-style: italic;
+    line-height: 40px;
+}
+.ui-widget-content {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 11px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.ui-state-default, .ui-widget-content {
+    outline: none;
+}
+.ui-accordion-header {
+    margin: 0 !important;
+}
+/* =============== ACCORDION-end =============== */
+/* =============== ACCORDION_ICONS ============= */
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon, .ui-icon-triangle-1-e {
+    background-image: url('../img/plus.png');
+    border-radius: 16px;
+    background-color: white;
+    margin-top: -4px;
+    margin-right: 9px;
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon, .ui-icon-triangle-1-s {
+    background-image: url('../img/minus.png');
+    border-radius: 16px;
+    background-color: white;
+    background-position: 4px 4px;
+}
+.ui-icon-triangle-1-e {
+    background-position: 4px 4px;
+}
+.ui-icon-triangle-1-s {
+    background-position: 4px 4px;
+}
+/* =============== ACCORDION_ICONS-end ========= */
