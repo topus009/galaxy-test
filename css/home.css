@@ -5,6 +5,7 @@ body {
     min-width: 1024px;
     min-height: 600px;
     font-family: "A Garamond Pro";
+    overflow: hidden;
 }
 .fullpage {
     width: 100vw;

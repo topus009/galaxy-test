@@ -6,6 +6,7 @@ body {
     min-height: 600px;
     font-family: "A Garamond Pro";
     background-color: black;
+    overflow: hidden;
 }
 .fullpage__ {
     width: 100vw;
